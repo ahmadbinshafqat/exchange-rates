@@ -76,7 +76,7 @@ The background job is set to run at 10:00 PM (UTC) daily. It fetches the latest 
 You can test the API by making a GET request to the `/exchange-rates` endpoint using tools like `curl` or Postman:
 
 ```bash
-curl http://localhost:8000/exchange-rates
+curl http://localhost:8080/exchange-rates
 ```
 
 ### Cleanup
