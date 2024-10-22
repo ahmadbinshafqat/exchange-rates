@@ -29,7 +29,7 @@ A FastAPI application that fetches exchange rates from the European Central Bank
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:ahmadbinshafqat/exchange-rates.git
    cd exchange_rates_api
    ```
 
@@ -76,7 +76,7 @@ The background job is set to run at 10:00 PM (UTC) daily. It fetches the latest 
 You can test the API by making a GET request to the `/exchange-rates` endpoint using tools like `curl` or Postman:
 
 ```bash
-curl http://localhost:8080/exchange-rates
+curl http://localhost:8000/exchange-rates
 ```
 
 ### Cleanup
